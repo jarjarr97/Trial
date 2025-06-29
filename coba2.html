@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nanda Coffee Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="fade-in">
+    <h1>Nanda Coffee Shop</h1>
+    <p>A Cup of Joy in Every Sip</p>
+  </header>
+
+  <section class="about fade-in">
+    <h2>About Us</h2>
+    <p>Welcome to Nanda Coffee Shop — a cozy place for coffee lovers. We serve freshly brewed coffee and handcrafted beverages.</p>
+  </section>
+
+  <section class="menu fade-in">
+    <h2>Our Menu</h2>
+    <div class="menu-list">
+      <div class="item">
+        <h3>Espresso</h3>
+        <p>Rich and bold shot of espresso.</p>
+      </div>
+      <div class="item">
+        <h3>Latte</h3>
+        <p>Espresso with steamed milk and foam.</p>
+      </div>
+      <div class="item">
+        <h3>Cold Brew</h3>
+        <p>Slow-brewed over 12 hours for smooth taste.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="order fade-in">
+    <h2>Order Form</h2>
+    <form id="orderForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="menu">Choose Menu:</label>
+      <select id="menu" required>
+        <option value="">-- Select --</option>
+        <option value="Espresso">Espresso</option>
+        <option value="Latte">Latte</option>
+        <option value="Cold Brew">Cold Brew</option>
+      </select>
+
+      <label for="qty">Quantity:</label>
+      <input type="number" id="qty" min="1" value="1" required />
+
+      <button type="submit">Order via WhatsApp</button>
+    </form>
+  </section>
+
+  <section class="contact fade-in">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:hello@nanda.coffee">hello@nanda.coffee</a></p>
+    <p>Instagram: @nandacoffee</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Nanda Coffee Shop. Brewed with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
